@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "nombre": "Tempest",
+        "universo": "Everfree",
+        "estado": "activa",
+        "multes": 0
+    },
+    {
+        "id": 2,
+        "nombre": "Reina Janna",
+        "universo": "Árbol de la Vida",
+        "estado": "protegida",
+        "multes": 0
+    },
+    {
+        "id": 3,
+        "nombre": "Rani",
+        "universo": "Reino Helado",
+        "estado": "congelada",
+        "multes": 0
+    },
+    {
+        "id": 4,
+        "nombre": "Kion",
+        "universo": "La Guardia del León",
+        "estado": "alerta",
+        "multes": 0
+    },
+    {
+        "id": 5,
+        "nombre": "Neytiri",
+        "universo": "Pandora",
+        "estado": "en guardia",
+        "multes": 0
+    }
+]

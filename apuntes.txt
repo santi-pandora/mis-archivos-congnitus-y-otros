@@ -1,0 +1,83 @@
+api
+pruebas unitarias 
+esta funcionando mañl el inicio de sesion ya qie le devyekve datos malos
+
+Una API  es un conjunto de definiciones y protocolos que se utiliza para desarrollar e integrar los sistemas de software de las aplicaciones. Suele considerarse como el contrato entre el usuario y el  proveedor de información, en el cual se establece el contenido que se necesita por parte del consumidor (la llamada) y el que requiere el productor (la respuesta). Por ejemplo, el diseño de una API  de servicio meteorológico podría requerir que el usuario escribiera un código postal  y que el productor diera una respuesta en dos partes: la primera sería la temperatura máxima y la segunda sería la mínima. 
+
+REST
+REST no es un protocolo ni un estándar, sino más bien un conjunto de límites relacionados con la arquitectura. Los desarrolladores de las API pueden implementarlo de distintas maneras.
+
+Cuando el cliente envía una solicitud a través de una API de RESTful, esta transfiere una representación del estado del recurso requerido a quien lo haya solicitado o al extremo. La información se entrega por medio de HTTP en uno de estos formatos: JSON (JavaScript Object Notation), HTML, XLT, Python, PHP o texto sin formato. JSON es el formato de archivo más conocido, ya que tanto las máquinas como las personas pueden comprenderlo, y no depende de ningún lenguaje, a pesar de que su nombre indique lo contrario. 
+
+Asimismo, es necesario tener en cuenta otro aspecto: los  encabezados  y los parámetros también son importantes en los  métodos HTTP  de la  solicitud HTTP de la API de RESTful, ya que contienen información de  identificación  esencial sobre los metadatos, la autorización, el identificador uniforme de recursos (URI), el almacenamiento en caché, las cookies y otros elementos de la  solicitud. Hay encabezados de  solicitud y  de  respuesta, y cada uno tiene sus propios códigos de estado e información de conexión HTTP.
+
+Para que una API se considere de RESTful, debe tener:
+
+Una arquitectura cliente-servidor compuesta de clientes, servidores y recursos, con la gestión de solicitudes a través de HTTP.
+Una comunicación entre el cliente y el servidor sin estado, lo cual implica que no se almacena la información del cliente entre las solicitudes GET y que cada una de ellas es independiente y está desconectada del resto.
+Datos que puedan almacenarse en caché y optimicen las interacciones entre el cliente y el servidor.
+Una interfaz uniforme entre elementos que permita que la información se transfiera de manera  estándar, para lo cual:
+Los recursos solicitados deben ser identificables e independientes de las representaciones enviadas al cliente.
+El cliente debe poder manipular los recursos a través de la representación que recibe, ya que esta contiene suficiente información para ello.
+Los mensajes autodescriptivos que se envíen al cliente deben contener la información necesaria para describir la manera de procesarla.
+Debe contener hipertexto o hipermedios, lo cual significa que cuando el cliente  acceda a algún recurso, tiene que poder utilizar hipervínculos para buscar las demás acciones que se encuentren disponibles en ese momento.
+Un sistema en capas que organiza en jerarquías invisibles  para  el cliente cada tipo de servidores (los encargados de la seguridad, del equilibrio de carga, etc.) que participan en la recuperación de la información solicitada.
+El código disponible según se solicite (opcional), es decir, la capacidad para enviar códigos ejecutables del servidor al cliente cuando se requiera, lo cual amplía las funciones del cliente. 
+ 
+ Qué es Xano?
+Xano es una plataforma de desarrollo de backend sin código que ayuda a los usuarios a crear aplicaciones escalables y seguras sin escribir ningún código. Ofrece una solución completa de backend como servicio (BaaS), que incluye una base de datos flexible, un generador de API y herramientas de automatización.
+
+Con Xano, puede crear flujos de trabajo complejos, integrarse con servicios externos y administrar datos de manera eficiente. Es compatible con la implementación sin servidor, lo que garantiza un alto rendimiento y escalabilidad.
+
+Diseñado para desarrolladores, startups y empresas, Xano simplifica el desarrollo de back-end, permitiendo a los usuarios centrarse en la construcción de sus aplicaciones sin preocuparse por la infraestructura. Es una poderosa alternativa a la codificación tradicional para el desarrollo de back-end.
+
+Características clave de Xano
+Gestión de Bases de Datos Escalables – Almacene y administre sus datos con la base de datos PostgreSQL incorporada de Xanoana. Puede crear y modificar tablas, establecer relaciones y filtrar datos sin necesidad de servicios de bases de datos externas.
+API Escalables Generadas Automáticamente – Cada vez que creas una base de datos, Xano genera automáticamente API RESTful para ti. Estas API son totalmente escalables, lo que garantiza que su aplicación pueda manejar las crecientes demandas de los usuarios sin problemas de rendimiento.
+Lógica Empresarial con Funciones Sin Código – Puede automatizar los flujos de trabajo y aplicar reglas comerciales utilizando la pila de funciones de Xanoana. Le permite manipular datos, conectarse a servicios externos y procesar operaciones complejas visualmente.
+Integraciones de Terceros sin Costuras – Conéctese con API externas, pasarelas de pago, servicios de autenticación y más. Xano proporciona herramientas integradas para solicitudes de API, webhooks y sincronización de datos externos.
+Autenticación de Usuario y Seguridad – Asegure su backend con autenticación de usuario incorporada, acceso basado en roles y puntos finales de API cifrados. Puede administrar registros, inicios de sesión y permisos sin complementos adicionales.
+Alojamiento sin Servidor y Auto-Escala – No necesitas preocuparte por los servidores. Xano aloja su backend en una infraestructura escalable, ajustando automáticamente los recursos según la demanda para mantener su aplicación funcionando sin problemas.
+Control de Versiones y Copias de Seguridad de Datos – Realice cambios con confianza con el control de versiones incorporado de Xanoana. Sus datos se respaldan automáticamente, por lo que puede restaurar versiones anteriores si es necesario.
+Creador de Consultas con Energía AI – Xano simplifica las consultas complejas con un constructor impulsado por IA que te ayuda a recuperar, filtrar y procesar datos de manera eficiente, sin escribir SQL.
+Despliegue Multiambiental – Prueba, organiza e implementa tu backend con diferentes entornos. Puede realizar actualizaciones de forma segura sin afectar su aplicación en vivo.
+Beneficios de Xano
+Desarrollo de Backend más rápido – Puede acelerar su proceso de desarrollo omitiendo la necesidad de codificar la lógica del backend o las API. Las herramientas de automatización y arrastrar y soltar de Xanoa le ayudan a iniciar el backend de sus aplicaciones rápidamente.
+Reduce el Esfuerzo de Mantenimiento – Con la infraestructura sin servidor, no tiene que administrar servidores, preocuparse por escalar o realizar actualizaciones manuales. Xano se encarga del mantenimiento del backend, por lo que puede concentrarse en construir su aplicación.
+Integración perfecta con Frontend Builders – Puedes conectar fácilmente Xano a herramientas frontend como Bubble, Webflow o Adalo. Actúa como un backend confiable, administrando sus datos y solicitudes de API mientras su frontend maneja las interacciones de los usuarios.
+Sin Bloqueo de Proveedores – A diferencia de otras plataformas sin código, Xano ofrece flexibilidad al permitirle exportar su lógica y datos de API. Esto garantiza que mantenga el control total sobre su backend si decide migrar más tarde.
+Mejora la Colaboración – Teams puede colaborar mejor administrando diferentes entornos (desarrollo, pruebas y producción) dentro de Xano, lo que facilita la implementación de cambios sin interrumpir la aplicación en vivo.
+Limitaciones de Xano
+Curva de Aprendizaje Empinada – Mientras Xano es una herramienta de backend sin código, comprender bases de datos, API y flujos lógicos aún puede ser un desafío para los principiantes. Es posible que necesite algo de tiempo para sentirse cómodo con su interfaz y funcionalidades.
+Capacidades Limitadas de Frontend – Xano se enfoca solo en el desarrollo de backend, lo que significa que necesitarás una herramienta separada como Bubble, Webflow o FlutterFlow para construir la interfaz de usuario de tus aplicaciones.
+No hay Soporte de Aplicaciones Móviles Nativas – A diferencia de otras plataformas sin código, Xano no ofrece herramientas integradas para desarrollar aplicaciones móviles nativas. Debe conectarlo con creadores de aplicaciones externos para el desarrollo móvil.
+Falta de Plantillas Pre-Construidas – A diferencia de otras plataformas sin código, Xano no proporciona plantillas listas para usar para tipos de aplicaciones comunes. Debe construir todo desde cero, lo que puede ralentizar la configuración inicial.
+Características Limitadas en Tiempo Real – Xano no tiene actualizaciones integradas de bases de datos en tiempo real como Firebase. Si su aplicación requiere actualizaciones instantáneas (por ejemplo, chat en vivo o edición colaborativa), deberá integrar soluciones de terceros.
+Dependencias de Hosting Externo – Dado que Xano es una solución alojada, confía en sus servidores para el tiempo de actividad y el rendimiento. Si hay problemas de tiempo de inactividad o del servidor, el backend de sus aplicaciones puede verse afectado.
+Menos Recursos de Aprendizaje en comparación con los Competidores – Si bien Xano tiene documentación y tutoriales, tiene una comunidad más pequeña en comparación con plataformas como Firebase o Airtable, lo que dificulta la búsqueda de guías y soluciones generadas por los usuarios.
+
+son pruebas oara ver como funciona el xcxidigonen ciertas sutuaciones
+
+ademas que  expect usted envio lo 	ye quiere quye le apareazca cpomo respuesta quiere quye le apareazca cpomo respuesta
+
+
+
+diagrama flujo: es una manera de representar priceso o algortitmo a traves de una serie de psasos estructurados
+como vinculasos como un todo
+
+estas utilizan una serie de forguras goeometricas degfinisas de ante mano ademas del camino del proceso y se usan los siguiemtes simbolos:Símbolos del diagrama de flujo
+Existen notaciones y elementos estándar que se utilizan en la mayoría de los flujogramas. Cada símbolo representa una acción o paso diferente dentro de una secuencia o proceso. A continuación destacamos los símbolos más comunes:
+
+Óvalo
+Un elemento ovalado en un diagrama de flujo representa el terminal. En otras palabras, indica el inicio y la parada dentro de una secuencia.
+
+Paralelogramos
+El paralelogramo indica una entrada o una salida.
+
+Rectángulos
+Los rectángulos indican las acciones.
+
+Diamantes
+Los diamantes indican las decisiones que hay que tomar. Suelen dar lugar a dos caminos alternativos en función de la decisión tomada.
+
+
